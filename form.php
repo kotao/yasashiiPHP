@@ -2,13 +2,13 @@
 <html lang="ja">
 <head>
 <meta=charset="UTF-8">
-<title>入力フォーム</title>
+<title>蜈･蜉帙ヵ繧ｩ繝ｼ繝</title>
 </head>
 <body>
-入力フォーム<br>
+繝輔か繝ｼ繝<br>
 <form method="post" action="add.php">
-料理名:<input type="text" name="recipe name" required>
-<input type="submit" value="送信">
+繝ｬ繧ｷ繝泌錐:<input type="text" name="recipe name" required>
+<input type="submit" value="騾∽ｿ｡">
 </form>
 </body>
 </html>

@@ -40,7 +40,7 @@ try {
 <input type="radio" name="difficulty" value="2" <?php if ($result['difficulty'] === 2) echo "checked" ?>>普通
 <input type="radio" name="difficulty" value="3" <?php if ($result['difficulty'] === 3) echo "checked" ?>>難しい
 <br>
-予算:<input type="number" name="budget" value=<?php echo htmlspecialchars($result['budget'], ENT_QUOTES, 'UTF-8'); ?>">円
+予算:<input type="number" name="budget" value="<?php echo htmlspecialchars($result['budget'], ENT_QUOTES, 'UTF-8'); ?>">円
 <br>
 作り方:
 <textarea name="howto" cols="40" rows="4" maxlength="150"><?php echo htmlspecialchars($result['howto'], ENT_QUOTES, 'UTF-8'); ?></textarea>
